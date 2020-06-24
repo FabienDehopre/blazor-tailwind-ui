@@ -348,4 +348,4 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
-/BlazorTailwindUI/Styles/styles.css
+/BlazorTailwindUI/wwwroot/css/styles.css

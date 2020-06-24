@@ -4,7 +4,7 @@
   "description": "Tailwind UI component gallery using Blazor",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "css": "gulp css"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "tailwindui",
     "css"
   ],
-  "author": "Fabien Dehopr�",
+  "author": "Fabien Dehopre",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/FabienDehopre/blazor-tailwind-ui/issues"
