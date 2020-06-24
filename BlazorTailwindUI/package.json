@@ -1,0 +1,32 @@
+{
+  "name": "blazor-tailwind-ui",
+  "version": "1.0.0",
+  "description": "Tailwind UI component gallery using Blazor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabienDehopre/blazor-tailwind-ui.git"
+  },
+  "keywords": [
+    "blazor",
+    "tailwindcss",
+    "tailwindui",
+    "css"
+  ],
+  "author": "Fabien Dehopr�",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FabienDehopre/blazor-tailwind-ui/issues"
+  },
+  "homepage": "https://github.com/FabienDehopre/blazor-tailwind-ui#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.8.4",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "precss": "^4.0.0",
+    "tailwindcss": "^1.4.6"
+  }
+}
