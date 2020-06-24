@@ -1,6 +1,6 @@
-﻿@tailwind base;
-@tailwind components;
-@tailwind utilities;
+﻿@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 #blazor-error-ui {
   background: lightyellow;
@@ -12,11 +12,11 @@
   position: fixed;
   width: 100%;
   z-index: 1000;
-}
 
-  #blazor-error-ui .dismiss {
+  & .dismiss {
     cursor: pointer;
     position: absolute;
     right: 0.75rem;
     top: 0.5rem;
   }
+}
