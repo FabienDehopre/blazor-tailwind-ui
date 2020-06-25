@@ -16,6 +16,6 @@ module.exports = {
   },
   variants: {},
   plugins: [
-    require('@tailwindcss/ui')
+    require('@tailwindcss/ui')({ layout: 'sidebar' }),
   ],
 }
