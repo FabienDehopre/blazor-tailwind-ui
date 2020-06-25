@@ -4,6 +4,7 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <RazorLangVersion>3.0</RazorLangVersion>
     <ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
+    <TailwindRoot>Styles\</TailwindRoot>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,6 +16,13 @@
 
   <ItemGroup>
     <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Don't publish the Tailwind CSS/UI source files, but do show them in the project files list -->
+    <Content Remove="$(TailwindRoot)**" />
+    <None Remove="$(TailwindRoot)**" />
+    <None Include="$(TailwindRoot)**" />
   </ItemGroup>
 
 </Project>
