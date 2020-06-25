@@ -6,7 +6,7 @@ gulp.task('css', () => {
     .pipe(postcss([
       require('postcss-import'),
       require('tailwindcss'),
-      require('postcss-preset-env')({ stage: 1, autoprefixer: { grid: true } }),
+      require('postcss-preset-env')({ stage: 1 }),
     ]))
     .pipe(gulp.dest('./wwwroot/css/'));
 });
