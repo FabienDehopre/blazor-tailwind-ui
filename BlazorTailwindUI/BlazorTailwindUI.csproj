@@ -5,6 +5,7 @@
     <RazorLangVersion>3.0</RazorLangVersion>
     <ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
     <TailwindRoot>Styles\</TailwindRoot>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>

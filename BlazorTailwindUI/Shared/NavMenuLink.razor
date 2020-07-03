@@ -1,0 +1,13 @@
+<a @attributes="AdditionalAttributes" class="group flex items-center px-2 py-2 @(IsDesktop ? "text-sm leading-5" : "text-base leading-6") font-medium rounded-md @(isActive ? "text-white bg-gray-900" : "text-gray-300 hover:text-white hover:bg-gray-700 focus:text-white") focus:outline-none focus:bg-gray-700 transition ease-in-out duration-150 @(cssClass)">
+  @if (Icon != null)
+  {
+    @Icon((IsDesktop, isActive))
+  }
+  @if (Label != null)
+  {
+    @Label
+  } else
+  {
+    @LabelText
+  }
+</a>
